@@ -1,0 +1,40 @@
+# 基础依赖
+python>=3.8
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+numpy>=1.24.0
+pillow>=10.0.0
+moviepy>=1.0.3
+yt-dlp>=2023.10.13
+requests>=2.31.0
+
+# 人脸识别和替换
+insightface>=0.7.3
+onnxruntime>=1.15.0
+onnx>=1.14.0
+
+# 自然语言处理
+transformers>=4.35.0
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+
+# GUI界面
+PyQt6>=6.5.0
+PyQt6-Qt6>=6.5.0
+PyQt6-sip>=13.5.0
+
+# 音频处理
+pydub>=0.25.1
+speechrecognition>=3.10.0
+
+# 其他工具
+tqdm>=4.65.0
+loguru>=0.7.0
+colorama>=0.4.6
+
+# 开发依赖
+black>=23.0.0
+flake8>=6.0.0
+pytest>=7.4.0
